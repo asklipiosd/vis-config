@@ -7,10 +7,11 @@ end)
 
 -- [plugins] ------------------------------------------------------------------
 require("plugins/vis-command").Setup()
+require("plugins/vis-commentary")()
 require("plugins/vis-autoclose")
 require("plugins/vis-lspc")
+require("plugins/vis-colorizer")
 require("plugins/bannerate")
-require("plugins/vis-commentary")()
 Fzf = require("plugins/vis-fzf-open")
 
 -- [Fzf] ----------------------------------------------------------------------

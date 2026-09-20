@@ -13,3 +13,6 @@
 [submodule "plugins/vis-lspc"]
 	path = plugins/vis-lspc
 	url = https://codeberg.org/muhq/vis-lspc
+[submodule "plugins/vis-colorizer"]
+	path = plugins/vis-colorizer
+	url = https://github.com/thimc/vis-colorizer
