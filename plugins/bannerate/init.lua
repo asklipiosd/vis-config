@@ -3,7 +3,7 @@ local comment_leaders = {
   makefile = "#", yaml = "#", toml = "#", awk = "#",
   c = "//", cpp = "//", java = "//", javascript = "//",
   typescript = "//", rust = "//", go = "//", css = "//",
-  zig = "//",
+  zig = "//", fish = "#"
 }
 
 local function comment_leader(win)
