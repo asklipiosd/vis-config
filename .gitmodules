@@ -1,0 +1,15 @@
+[submodule "plugins/vis-autoclose"]
+	path = plugins/vis-autoclose
+	url = https://codeberg.org/luxanna/vis-autoclose
+[submodule "plugins/vis-command"]
+	path = plugins/vis-command
+	url = https://github.com/Nomarian/vis-command
+[submodule "plugins/vis-commentary"]
+	path = plugins/vis-commentary
+	url = https://github.com/Nomarian/vis-commentary
+[submodule "plugins/vis-fzf-open"]
+	path = plugins/vis-fzf-open
+	url = https://git.sr.ht/~mcepl/vis-fzf-open
+[submodule "plugins/vis-lspc"]
+	path = plugins/vis-lspc
+	url = https://codeberg.org/muhq/vis-lspc
