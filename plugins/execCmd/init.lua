@@ -7,14 +7,16 @@ local function setCommand()
 	end
 end
 
-vis:command_register("resetCmd", function()
+vis:command_register("ResetCmd", function()
 	setCommand()
 end, "reset command")
 vis:command_register("ExecCmd", function()
 	if uCmd ~= "" then
+		vis:command("wa")
 		vis:command("!" .. uCmd)
 	else
 		setCommand()
+		vis:command("wa")
 		vis:command("!" .. uCmd)
 	end
 end, "Execute command")

@@ -37,3 +37,4 @@ vis:map(vis.modes.VISUAL, " G", ":Unbannerate<Enter>", "Unbannerate selection")
 
 -- [execCmd] ----------------------------------------------------------
 vis:map(vis.modes.NORMAL, " \\",":ExecCmd<Enter>", "execute command")
+vis:map(vis.modes.NORMAL, " s",":ResetCmd<Enter>", "execute command")
