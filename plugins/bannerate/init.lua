@@ -1,3 +1,9 @@
+------------------------------- 
+--credit to lung, if-not-nil---
+--whose bannerate script ------
+--this is a fork for-----------
+------------------------------- 
+
 local comment_leaders = {
   lua = "--", sh = "#", bash = "#", python = "#", ruby = "#",
   makefile = "#", yaml = "#", toml = "#", awk = "#",
@@ -29,9 +35,7 @@ local function selection_lines(file, selection)
   return line1, line2
 end
 
---------------------------------------------------------------------------
--- Bannerate: turn line(s) into a padded comment banner
---------------------------------------------------------------------------
+-- [bannerate] ----------------------------------------------------------------
 vis:command_register("Bannerate", function(argv, force, win, selection, range)
   local file = win.file
   local width = 79
@@ -60,9 +64,7 @@ vis:command_register("Bannerate", function(argv, force, win, selection, range)
   return true
 end, "Turn line(s) into a padded comment banner")
 
---------------------------------------------------------------------------
--- Unbannerate: reverse it
---------------------------------------------------------------------------
+-- [unbannerate] --------------------------------------------------------------
 vis:command_register("Unbannerate", function(argv, force, win, selection, range)
   local file = win.file
   local cs = comment_leader(win)
